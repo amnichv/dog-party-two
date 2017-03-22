@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  /*max-width: 1020px;*/
+}
+
+body {
+  margin: 0px;
+  font-family: 'Raleway';
+}
+
+.dog-icon {
+  width: 31px;
+  height: 31px;
+  margin: 10 0 0 0;
+}
+
+ul {
+  list-style-type: none;
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 8px;
+  background-color: #92e0e5;
+  color: white;
+}
+
+.li-one {
+  float: right;
+  margin-right: 30px;
+}
+
+.li-two {
+  float: right;
+}
+
+.li-three {
+  float: right;
+}
+
+/*.li-icon {
+  margin: 10 0 0 0;
+}*/
+
+li {
+  display: inline;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+.list-item:hover {
+  background-color: black;
+}
+
+.header {
+    background: url('images/park.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 400px;
+}
+
+h1 {
+  margin: 0px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-family: 'Raleway';
+}
+
+.hero {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+  border: 2.8px solid #3f8da7;
+}
+
+.btn-header {
+  display: block;
+  margin: 12px auto 0 auto;
+  /*margin-top: 12px;*/
+}
+
+.dog-container {
+  max-width: 900px;
+  text-align: center;
+}
+
+.dog-info {
+  width: 30%;
+  vertical-align: top;
+  display: inline-block;
+  
+  /*padding: 20px 20px;*/
+}
+
+.dog-img {
+  border: 2px solid #3f8da7;
+  border-radius: 50%;
+  width: 150px;
+}
+
+.title {
+  margin: 30px;
+  font-size: 15px;
+}
+
+.about-dog {
+  font-size: 14px;
+}
+
+button {
+  padding: 5px 7px;
+  border: 3px solid #3f8da7;
+  font-family: 'Raleway';
+  font-size: 14px;
+  background-color: white;
+  color: #3f8da7;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.info-head {
+  text-transform: capitalize;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 190px;
+  margin-bottom: 60px;
+  background-color: #3f8da7;
+}
+
+.btm-info {
+  padding-top: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: white;
+}
+
+.icon {
+  padding-left: 35px;
+  width:70px;
+}
+
+.facebook {
+  padding-left: 0px;
+}
+
+.twitter {
+  width: 77px;
+}
+
+.icon-group {
+  text-align: center;
+  padding-top: 20px;
+  margin-right: 25px;
+}
+
+.link-to-gh {
+  display: inherit;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 604px) {
+
+  .header {
+      background: url('images/park.jpg') no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 380px;
+  }
